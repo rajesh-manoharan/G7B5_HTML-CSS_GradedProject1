@@ -1,0 +1,56 @@
+.prdts{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    width: 240px;
+    height: 240px;
+    background-color: rgba(100, 145, 255, 0.2);
+    box-shadow: 4px 3px 8px 1px rgba(100, 100, 100, .5);
+    margin:0 50px 0 0;
+}
+
+.prdts:hover {
+    width: 260px;
+    height: 260px;
+}
+
+.prdts img{
+    width: 230px;
+    height: 130px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.prdts .prdhdr{
+    margin:5px;
+    font-weight: bold;
+    display: inline;
+    font-size: medium;
+    color: black;
+}
+
+.prdts p {
+    color: blue;
+    margin: 0px;
+    margin-left:5px;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+
+.prdts button {
+    align-items: center;
+    width: 220px;
+    height: auto;
+    margin: 5px;
+    color: rgb(193, 127, 4);
+    font-weight: bold;
+    background-color: rgba(100, 145, 255, 0.5);
+    border-radius: 5px;
+    border-color: darkblue;
+}
+
+.prdts button:active {
+    background-color: rgb(250, 234, 230);
+    border-color: rgb(0, 255, 76);
+}

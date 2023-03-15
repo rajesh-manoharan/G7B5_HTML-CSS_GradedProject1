@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 98%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size:medium;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#navigation {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu {
+    margin: 0%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+  
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+  
+.menu li {
+    padding: 10px;
+    display: inline-block;
+}
+  
+.menu li:hover,
+.menu .submenu li:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    width: auto;
+    padding: 0%;
+    top:48px;
+    background-color: rgb(230, 230, 230);
+}
+
+.menu li:hover .submenu,
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color:steelblue;
+}

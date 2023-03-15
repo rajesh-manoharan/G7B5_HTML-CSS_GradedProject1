@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab test form page</title>
+    <link rel="stylesheet" href="styles/homePage.css" />
+    <link rel="stylesheet" href="styles/labTest.css" />
+</head>
+
+<body>
+    <header>Pharmacy</header>
+    <section id="navigation">
+        <nav>
+            <ul class="menu">
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="#">Our Medicines</a>
+                    <ul class="submenu">
+                        <li><a href="#">Fever</a></li>
+                        <li><a href="#">Muscle Pains</a></li>
+                        <li><a href="#">Cold & Cough</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Health Care</a>
+                    <ul class="submenu">
+                        <li><a href="#">Baby Care</a></li>
+                        <li><a href="#">Skin Care</a></li>
+                        <li><a href="#">Home care</a></li>
+                        <li><a href="#">Personal care</a></li>
+                        <li><a href="#">Pet care</a></li>
+                    </ul>
+                </li>
+                <li><a href="labTest.html">Lab Test</a></li>
+            </ul>
+        </nav>
+    </section>
+    <Div id="testForm">
+        <table class="inputTable">
+            <tr>
+                <th><h2>1. Your contact Details</h2> </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Full Name"/></td>
+                <td><input type="text" placeholder="Patient Id if exists"/></td>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="Contact Number" min="6000000000" max="9999999999"/></td>
+                <td><input type="email" placeholder="Email id"/></td>
+            </tr>
+        </table>
+        <table class="inputTable">
+            <tr>
+                <th><h2>2. Address</h2> </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="H-No"/></td>
+                <td><input type="text" placeholder="Street"/></td>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="Area"/></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3><Label for="district">District</Label></h3>
+                    <select name="district" id="district">
+                        <option>Choose</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Ariyalur">Ariyalur</option>
+                        <option value="Chengalpattu">Chengalpattu</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Cuddalore">Cuddalore</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table class="inputTable">
+            <tr>
+                <th><h2>3. Test type</h2> </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    <Label for="CBC">CBC</Label></h3>
+                    <input type="checkbox" value="CBC" id="CBC"/>
+                </td>
+                <td>
+                    <Label for="urine">Complete urine</Label></h3>
+                    <input type="checkbox" value="urine" id="urine"/>
+                </td>
+                <td>
+                    <Label for="lipid">Lipid Profile</Label></h3>
+                    <input type="checkbox" value="lipid" id="lipid"/>
+                </td>
+                <td>
+                    <Label for="TSH">Thyroid Stimulating Hormone(TSH)</Label></h3>
+                    <input type="checkbox" value="TSH" id="TSH"/>
+                </td>
+                <td>
+                    <Label for="glucose">Glucose Test</Label></h3>
+                    <input type="checkbox" value="glucose" id="glucose"/>
+                </td>
+            </tr>
+        </table>
+            <p>*Choose one without fail</p>
+            <table class="inputTable">
+                <tr>
+                    <th><h2>3. Test type</h2> </th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="CBC">CBC</Label></h3>
+                        <input type="checkbox" value="CBC" id="CBC"/>
+                    </td>
+                    <td>
+                        <Label for="urine">Complete urine</Label></h3>
+                        <input type="checkbox" value="urine" id="urine"/>
+                    </td>
+                    <td>
+                        <Label for="lipid">Lipid Profile</Label></h3>
+                        <input type="checkbox" value="lipid" id="lipid"/>
+                    </td>
+                    <td>
+                        <Label for="TSH">Thyroid Stimulating Hormone(TSH)</Label></h3>
+                        <input type="checkbox" value="TSH" id="TSH"/>
+                    </td>
+                    <td>
+                        <Label for="glucose">Glucose Test</Label></h3>
+                        <input type="checkbox" value="glucose" id="glucose"/>
+                    </td>
+                </tr>
+            </table>
+                <p>*Choose one without fail</p>
+    </Div>
+    <Div id="testimage">
+        <img src="Images/Lab-Test/lab-test.jpg"/>
+    </Div>
+    <!-- <footer>@copyright. Only for demonstration purposes</footer> -->
+</body>
+
+</html>
