@@ -7,21 +7,9 @@
   animation-iteration-count: infinite;
   animation-duration: 8s;
   border: 2px solid steelblue;
+  height: 500px;
 }
 
-.advertize{
-  height: 1000px;
-  min-height: 800px;
-}
-
-.products {
-  position: relative;
-  height: 800px;
-  margin:20px;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 2px;
-}
 .ads img:nth-of-type(1) {
   animation-delay: 20s;
 }
@@ -31,8 +19,9 @@
 }
 
 .advertize {
-  height: 700px;
+  height: 500px;
 }
+
 .ads img:nth-of-type(3) {
   animation-delay: 10s;
 }

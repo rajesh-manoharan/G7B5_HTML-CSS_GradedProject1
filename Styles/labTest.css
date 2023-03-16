@@ -9,21 +9,18 @@ body {
     padding: 0px;
 }
 
-#testimage {
-    position:sticky;
-    float: right;
-    width: 40%;
-    margin: 0px;
-    padding: 0px;
-}
 
 #testimage img {
-    width:100%;
-    height:1000px;
+    left:60%;
+    position: sticky;
+    top:30px;
+    width:40%;
+    height: fit-content;
 }
 
+
 .inputTable td {
-    padding: 20px;
+    padding: 10px;
 }
 
 .inputTable th {

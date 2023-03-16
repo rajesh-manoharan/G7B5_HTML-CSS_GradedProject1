@@ -25,7 +25,7 @@ footer {
     background-color: rgba(0, 0, 0, 1);
 }
 
-#navigation {
+.navigation {
     position: sticky;
     top: 0%;
     z-index: 1;
