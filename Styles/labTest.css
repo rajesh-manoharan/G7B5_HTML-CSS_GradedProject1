@@ -12,10 +12,10 @@ body {
 
 #testimage img {
     left:60%;
-    position: sticky;
+    position: fixed;
     top:30px;
     width:40%;
-    height: fit-content;
+    height: 80%;
 }
 
 
