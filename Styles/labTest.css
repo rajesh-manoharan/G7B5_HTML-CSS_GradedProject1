@@ -3,24 +3,23 @@ body {
 }
 
 #testForm {
-    float: left;
-    width: 60%;
-    margin: 0px;
-    padding: 0px;
+    min-width: 600px;
+    width: 98%;
+    padding: 10px;
+    background-image: url("../Images/Lab-Test/lab-test.jpg");
+    background-position: right;
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    border: 2px solid lightslategray;
+    box-shadow: 5px 5px rgb(119, 136, 153, 0.3);
+    height: 700px;
+    min-height: 600px;
+    overflow: scroll scroll;
 }
-
-
-#testimage img {
-    left:60%;
-    position: fixed;
-    top:30px;
-    width:40%;
-    height: 80%;
-}
-
 
 .inputTable td {
-    padding: 10px;
+    padding: 5px;
 }
 
 .inputTable th {
@@ -38,6 +37,12 @@ input[type=email] {
     width: 300px;
 }
 
-.inputTable label {
-    text-align: left;
+.resetButton,
+.submitButton {
+    width: 100px;
+    min-width: 50px;
+    color: white;
+    background-color: violet;
+    font-size: medium;
+    margin-left: 100px;
 }
