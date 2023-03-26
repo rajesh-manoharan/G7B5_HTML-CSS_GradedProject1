@@ -19,11 +19,13 @@ body {
 }
 
 .inputTable td {
-    padding: 5px;
+    display: inline-table;
+    width: 300px;
 }
 
 .inputTable th {
     text-align: left;
+    display: inline-flexbox;
 }
 
 .inputTable input[type=text],
@@ -34,7 +36,6 @@ input[type=email] {
     border-left-style: hidden;
     border-bottom-style: groove;
     border-color: rgba(128, 128, 128, 0.5);
-    width: 300px;
 }
 
 .resetButton,
