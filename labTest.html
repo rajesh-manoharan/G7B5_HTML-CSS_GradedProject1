@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<header>Pharmacy</header>
+    <header>Pharmacy</header>
     <section class="navigation">
         <nav>
             <ul class="menu">
@@ -36,109 +36,110 @@
             </ul>
         </nav>
 
-    <div id="testForm">
-        <form action="#">
-            <table class="inputTable">
-                <tr>
-                    <th>
-                        <h2>1. Your contact Details</h2>
-                    </th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="Full Name" required /></td>
-                    <td><input type="text" placeholder="Patient Id if exists" /></td>
-                </tr>
-                <tr>
-                    <td><input type="number" placeholder="Contact Number" min="6000000000" max="9999999999" required />
-                    </td>
-                    <td><input type="email" placeholder="Email id" /></td>
-                </tr>
-            </table>
-            <table class="inputTable">
-                <tr>
-                    <th>
-                        <h2>2. Address</h2>
-                    </th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="H-No" required /></td>
-                    <td><input type="text" placeholder="Street" required /></td>
-                </tr>
-                <tr>
-                    <td><input type="number" placeholder="Area" required /></td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3><Label for="district">District</Label></h3>
-                        <select name="district" id="district" required>
-                            <option>Choose</option>
-                            <option value="Chennai">Chennai</option>
-                            <option value="Ariyalur">Ariyalur</option>
-                            <option value="Chengalpattu">Chengalpattu</option>
-                            <option value="Coimbatore">Coimbatore</option>
-                            <option value="Cuddalore">Cuddalore</option>
-                        </select>
-                    </td>
-                </tr>
-            </table>
-            <table class="inputTable">
-                <tr>
-                    <th>
-                        <h2>3. Test type</h2>
-                    </th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>
-                        <Label for="CBC">CBC</Label></h3>
-                        <input type="checkbox" value="CBC" id="CBC" />
-                    </td>
-                    <td>
-                        <Label for="urine">Complete urine</Label></h3>
-                        <input type="checkbox" value="urine" id="urine" />
-                    </td>
-                </tr>
-            </table>
-            <table class="inputTable">
-                <tr>
-                    <td>
-                        <Label for="lipid">Lipid Profile</Label></h3>
-                        <input type="checkbox" value="lipid" id="lipid" />
-                    </td>
-                    <td>
-                        <Label for="TSH">Thyroid Stimulating Hormone(TSH)</Label></h3>
-                        <input type="checkbox" value="TSH" id="TSH" />
-                    </td>
-                    <td>
-                        <Label for="glucose">Glucose Test</Label></h3>
-                        <input type="checkbox" value="glucose" id="glucose" />
-                    </td>
-                </tr>
-            </table>
-            <p>*Choose one without fail</p>
-            <h2>4. Do you want a hardcopy of the report also?</h2>
-            <input type="radio" id="yes" name="hardcopy" value="y">
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="hardcopy" value="n">
-            <label for="no">No</label>
+        <div id="testForm">
+            <form action="#">
+                <table class="inputTable">
+                    <tr>
+                        <th>
+                            <h2>1. Your contact Details</h2>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Full Name" required /></td>
+                        <td><input type="text" placeholder="Patient Id if exists" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" placeholder="Contact Number" min="6000000000" max="9999999999"
+                                required />
+                        </td>
+                        <td><input type="email" placeholder="Email id" /></td>
+                    </tr>
+                </table>
+                <table class="inputTable">
+                    <tr>
+                        <th>
+                            <h2>2. Address</h2>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="H-No" required /></td>
+                        <td><input type="text" placeholder="Street" required /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" placeholder="Area" required /></td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3><Label for="district">District</Label></h3>
+                            <select name="district" id="district" required>
+                                <option>Choose</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="Ariyalur">Ariyalur</option>
+                                <option value="Chengalpattu">Chengalpattu</option>
+                                <option value="Coimbatore">Coimbatore</option>
+                                <option value="Cuddalore">Cuddalore</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table class="inputTable">
+                    <tr>
+                        <th>
+                            <h2>3. Test type</h2>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <Label for="CBC">CBC</Label></h3>
+                            <input type="checkbox" value="CBC" id="CBC" />
+                        </td>
+                        <td>
+                            <Label for="urine">Complete urine</Label></h3>
+                            <input type="checkbox" value="urine" id="urine" />
+                        </td>
+                    </tr>
+                </table>
+                <table class="inputTable">
+                    <tr>
+                        <td>
+                            <Label for="lipid">Lipid Profile</Label></h3>
+                            <input type="checkbox" value="lipid" id="lipid" />
+                        </td>
+                        <td>
+                            <Label for="TSH">Thyroid Stimulating Hormone(TSH)</Label></h3>
+                            <input type="checkbox" value="TSH" id="TSH" />
+                        </td>
+                        <td>
+                            <Label for="glucose">Glucose Test</Label></h3>
+                            <input type="checkbox" value="glucose" id="glucose" />
+                        </td>
+                    </tr>
+                </table>
+                <p>*Choose one without fail</p>
+                <h2>4. Do you want a hardcopy of the report also?</h2>
+                <input type="radio" id="yes" name="hardcopy" value="y">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="hardcopy" value="n">
+                <label for="no">No</label>
 
-            <h2>5. Select your comfortable date & time</h2>
-            <label for="appDate">Date: </label>
-            <input type="Date" id="appDate" name="appDate" required>
-            <br /><br />
-            <label for="appTime">Time:</label>
-            <input type="time" id="appTime" name="appTime" min="06:00" max="20:00" required>
-            <br /><br />
-            <div>
-                <input type="Reset" class="resetButton">
-                <input type="Submit" class="submitButton">
-            </div>
+                <h2>5. Select your comfortable date & time</h2>
+                <label for="appDate">Date: </label>
+                <input type="Date" id="appDate" name="appDate" required>
+                <br /><br />
+                <label for="appTime">Time:</label>
+                <input type="time" id="appTime" name="appTime" min="06:00" max="20:00" required>
+                <br /><br />
+                <div>
+                    <input type="Reset" class="resetButton">
+                    <input type="Submit" class="submitButton">
+                </div>
             </form>
-    </div>
-</section>
+        </div>
+    </section>
 
 </body>
 

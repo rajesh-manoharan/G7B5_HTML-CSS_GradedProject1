@@ -21,7 +21,7 @@ footer {
     padding: 20px;
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-size:medium;
+    font-size: medium;
     background-color: rgba(0, 0, 0, 1);
 }
 
@@ -35,18 +35,18 @@ footer {
     margin: 0%;
     background-color: rgb(0, 0, 0, 0.5);
 }
-  
+
 .menu li a {
     text-decoration: none;
     color: white;
-    font-size:x-large;
+    font-size: x-large;
 }
-  
+
 .menu li {
     padding: 10px;
     display: inline-block;
 }
-  
+
 .menu li:hover,
 .menu .submenu li:hover {
     background-color: rgba(0, 0, 0, 0.7);
@@ -57,7 +57,7 @@ footer {
     position: absolute;
     width: auto;
     padding: 0%;
-    top:48px;
+    top: 48px;
     background-color: rgb(230, 230, 230);
 }
 
@@ -67,5 +67,5 @@ footer {
 }
 
 .submenu li a {
-    color:steelblue;
+    color: steelblue;
 }

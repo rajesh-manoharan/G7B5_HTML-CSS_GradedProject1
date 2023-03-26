@@ -11,10 +11,10 @@ body {
 
 
 #testimage img {
-    left:60%;
+    left: 60%;
     position: fixed;
-    top:30px;
-    width:40%;
+    top: 30px;
+    width: 40%;
     height: 80%;
 }
 
